@@ -2,6 +2,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+    
+    <meta http-equiv="refresh" content="40; url='https://m.youtube.com/watch?v=yAftpwfnlBs'" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -121,10 +123,10 @@
         <div class="cookie-consent-background"></div>
         <div class="cookie-consent-content">
             <h3 class="text-white">
-                haha cookies go burrrrrrrrrrrrrrrrrr
+                Cookie Notice
             </h3>
             <p class="brand-tagline text-white">
-                eat cookies, or just go in without cookies :C
+                Our website bakes cookies. You can accept or decline our cookie offer. 🍪
             </p>
             <p>
                 <button class="pure-button button-large">Accept</button>    
@@ -134,6 +136,17 @@
     </div>
 
     <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <progress value="0" max="40" id="progressBar"></progress>
+        <script type="text/javascript">
+            var timeleft = 40;
+        var downloadTimer = setInterval(function(){
+        if(timeleft <= 0){
+        clearInterval(downloadTimer);
+        }
+        document.getElementById("progressBar").value = 40 - timeleft;
+        timeleft -= 1;
+        }, 1000);
+        </script>
         <div class="header">
             <h1 class="brand-title">NEVER GONNA</h1>
             <h2 class="brand-tagline">Gave you up.<br/>Let you down.<br/>Ran around.</br>Dessert you.<br/></h2>
